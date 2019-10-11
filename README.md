@@ -15,5 +15,3 @@
 
 > php artisan serve
 
-# Upcoming
-- Add VueJS
