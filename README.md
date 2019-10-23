@@ -7,6 +7,8 @@
 
 > Change .env.example to .env
 
+> composer update
+
 > php artisan migrate
 
 > composer dump-autoload
