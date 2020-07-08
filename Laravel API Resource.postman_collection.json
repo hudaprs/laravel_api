@@ -1,0 +1,132 @@
+{
+    "info": {
+        "_postman_id": "fb391195-6773-4962-a25e-c3bc287f45f0",
+        "name": "Laravel API Resource",
+        "description": "Laravel API Resource",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "List All Articles",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "localhost:8000/api/articles",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "api",
+                        "articles"
+                    ]
+                },
+                "description": "List All Articles"
+            },
+            "response": []
+        },
+        {
+            "name": "Create New Article",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"title\": \"Artikel Baru\",\n  \"body\": \"Artikel Deskripsi\"\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "localhost:8000/api/article",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "api",
+                        "article"
+                    ]
+                },
+                "description": "Create New Article"
+            },
+            "response": []
+        },
+        {
+            "name": "Get Article By ID",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "localhost:8000/api/article/1",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "api",
+                        "article",
+                        "1"
+                    ]
+                },
+                "description": "Get Article By ID"
+            },
+            "response": []
+        },
+        {
+            "name": "Update Article By ID",
+            "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"title\": \"Artikel Baru 4 Diubah\",\n  \"body\": \"Artikel Deskripsi 4 Diubah\"\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "localhost:8000/api/article/4",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "api",
+                        "article",
+                        "4"
+                    ]
+                },
+                "description": "Update Article By ID"
+            },
+            "response": []
+        },
+        {
+            "name": "Delete Article by ID",
+            "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                    "raw": "localhost:8000/api/article/4",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "api",
+                        "article",
+                        "4"
+                    ]
+                },
+                "description": "Delete Article by ID"
+            },
+            "response": []
+        }
+    ],
+    "protocolProfileBehavior": {}
+}
