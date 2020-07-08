@@ -1,6 +1,6 @@
 # Laravel API
 
-- Laravel API Huda Prasetyo From Medium
+- Laravel API Huda Prasetyo From [Medium](https://medium.com/gits-apps-insight/laravel-6-membuat-api-menggunakan-resource-part-1-eec91149d7aa)
 
 ## First Thing First
 > Clone / Download first :D
